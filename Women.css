@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    border-radius: 10px;
+    margin-top: 16px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}
+.giua{
+    width: 100%;
+    height: 100%;
+}
+.giuaA{
+    width: 100%;
+    height: 235px;
+}
+.giuaA p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px 0;
+    color: black;
+}
+.giuaA img{
+    margin-top: -12px;
+    width: 100%;
+    height: 200px;
+}
+.giuaB{
+    width: 80%;
+    height: 20%;
+    margin-left: 125px;
+    display: flex;
+    margin-top: 15px;
+}
+.giuaB .Banh{
+    padding: 0 57px;
+}
+.giuaB .Banh p{
+  font-size: 20px;
+    font-weight: bold;
+}
+.giuaC{
+    width: 100%;
+    height: 900px;
+}
+.giuaC .nam{
+    width: 25%;
+    height: 100%;
+}
+.giuaC .nam img{
+    width: 220px;
+    height: 238px;
+}
+.giuaC .nam p{
+   padding: 0 35px;
+   font-weight: bold;
+   font-size: 20px;
+   transform: translateY(-35px);
+}
+.giuaC .men{
+    display: flex;
+}
+.duoi{
+    width: 100%;
+    height: 220px;
+    background-color: yellow;
+    margin-top: 25px;
+}
+ .duoi .adderss1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+ .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+ .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+ .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+ .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+ .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+ .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}
