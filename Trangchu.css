@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    border-radius: 10px;
+    margin-top: 16px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 40%;
+}
+
+.container .banner{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    animation: background 3s infinite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+@keyframes background {
+    0% {
+        background-image: url(./img/h1.png);
+    }
+    50%{
+        background-image: url(./img/h2.jpg);
+    }
+    100%{
+        background-image: url(./img/h3.jpg);
+    }
+}
+.image{
+    width: 100%;
+    height: 80%;
+}
+.image p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.image .picture{
+    width: 100%;
+    text-align: center;
+}
+.image .picture img{
+    width: 91%;
+}
+.product{
+    width: 100%;
+    height: 1050px;
+}
+.product p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.product .men{
+    width: 100%;
+    display: flex;
+    margin-top: -5%;
+}
+.product .men .nam{
+    width: 305px;
+    height: 400px;
+    cursor: pointer;
+} 
+.product .men .nam img{
+    width: 110%;
+}
+.product .men .nam p{
+    font-size: 25px;
+    transform: translateY(-64px) translateX(5px);
+}
+.product .men .nam .bieutuong{
+    width: 40%;
+    transform: translateX(115px) translateY(-70px) ;
+
+}
+.phanduoi{
+    width: 100%;
+    height: 90%;
+}
+.trademark{
+    width: 100%;
+    height: 140px;
+    margin-top: 70px;
+}
+.trademark p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.trademark img{
+    padding: 0 55px;
+    margin-left:60px ;
+}
+.footer{
+    width: 100%;
+    padding-top: 30px;
+}
+.footer .tren{
+    width: 90%;
+    height: 200px;
+    /* background-color: blue; */
+    margin-left: 60px;
+    margin-top: 5%;
+    display: flex;
+}
+.footer .tren .trai{
+    width: 62%;
+    height: 100%;
+    
+}
+.footer .tren .trai p{
+    padding: 10px 0;
+}
+.footer .tren .trai input{
+    width: 490px;
+    height: 25px;
+    border-radius:10px ;
+    border: 1px white solid;
+    background-color: #e2d9d9;
+}
+.footer .tren .trai button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: yellow;
+    border: 1px;
+    cursor: pointer;
+}
+.footer .tren .phai{
+    width: 38%;
+    height: 100%;
+    
+}
+
+.footer .tren .phai img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.phanduoi .footer .duoi{
+    margin-top: 5%;
+    width: 100%;
+    height: 220px;
+    background-color: yellow;
+}
+.footer .duoi .adderss1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.footer .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+.footer .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footer .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+.footer .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+.footer .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+.footer .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}
+
+
